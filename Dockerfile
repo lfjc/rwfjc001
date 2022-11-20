@@ -1,7 +1,6 @@
 FROM alpine:edge
 
 ENV AUUID=2b6bbb33-8364-4b90-a5b7-48cc10b717d9
-    CONFIGCADDY=https://raw.githubusercontent.com/lfjc/rwfjc001/main/etc/Caddyfile
     CONFIGRAY=https://raw.githubusercontent.com/lfjc/rwfjc001/main/etc/ray.json
     ParameterSSENCYPT=chacha20-ietf-poly1305
     StoreFiles=https://raw.githubusercontent.com/lfjc/rwfjc001/main/etc/StoreFiles
