@@ -1,0 +1,34 @@
+{
+    "name": "rwfjc",
+    "description": "",
+    "keywords": [""],
+    "env": {
+        "AUUID": {
+            "description": "UUID",
+            "value": "2b6bbb33-8364-4b90-a5b7-48cc10b717d9"
+        },
+        "CADDYIndexPage": {
+            "description": "Page",
+            "value": "https://github.com/PavelDoGreat/WebGL-Fluid-Simulation/archive/master.zip"
+        },
+        "CONFIGCADDY": {
+            "description": "CADDY",
+            "value": "https://raw.githubusercontent.com/lfjc/rwfjc001/main/etc/Caddyfile"
+        },
+        "CONFIGXRAY": {
+            "description": "Ray",
+            "value": "https://raw.githubusercontent.com/lfjc/rwfjc001/main/etc/ray.json"
+        },
+        "ParameterSSENCYPT": {
+            "description": "Encrypt",
+            "value": "chacha20-ietf-poly1305"
+        },
+        "StoreFiles": {
+            "description": "File",
+            "value": "https://raw.githubusercontent.com/lfjc/rwfjc001/main/etc/StoreFiles"
+        }
+    },
+    "website": "https://github.com/lfjc/rwfjc001",
+    "repository": "https://github.com/lfjc/rwfjc001",
+    "stack": "container"
+}
