@@ -4,10 +4,10 @@ RUN apk update && \
     apk add --no-cache ca-certificates caddy tor wget && \
     wget https://raw.githubusercontent.com/lfjc/rwfjc001/main/etc/ray-linux-64.zip && \
     busybox unzip /ray-linux-64.zip && \
-    mv /ray-linux-64/* / && \
+    #mv /ray-linux-64/* / && \
     chmod +x /ray && \
-    rm -rf /var/cache/apk/* && \
-    rm -rf /ray-linux-64
+    rm -rf /var/cache/apk/*
+    #rm -rf /ray-linux-64
 
 ADD start.sh /start.sh
 RUN chmod +x /start.sh
